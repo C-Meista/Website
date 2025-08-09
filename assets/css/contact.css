@@ -1,0 +1,42 @@
+/* ===== CHAINZZ - Contact Page Styles ===== */
+/* Styles specific to contact.html */
+
+/* Contact page specific styles can be added here */
+/* Currently using global components, but can be extended for specific needs */
+
+/* Example: Special styling for contact methods */
+.contact-method {
+  text-align: center;
+  padding: var(--spacing-lg) var(--spacing-md);
+  border-radius: var(--radius-lg);
+  transition: var(--transition-normal);
+}
+
+.contact-method:hover {
+  background-color: var(--bg-tertiary);
+}
+
+.contact-method a {
+  color: var(--text-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-method a:hover {
+  color: var(--accent-hover);
+}
+
+/* FAQ styling */
+.faq-item {
+  margin-bottom: var(--spacing-md);
+}
+
+.faq-item h4 {
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.faq-item p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}

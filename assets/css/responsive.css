@@ -1,0 +1,70 @@
+/* ===== CHAINZZ - Responsive Design ===== */
+/* Mobile and responsive styles for all pages */
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header-content {
+    padding: var(--spacing-sm);
+  }
+  
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-primary);
+    flex-direction: column;
+    border-top: 1px solid var(--border-color);
+    padding: var(--spacing-sm);
+  }
+  
+  .nav-list.mobile-open {
+    display: flex;
+  }
+  
+  .menu-toggle {
+    display: block;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  .container,
+  .container-sm {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .section {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  
+  .hero {
+    min-height: 80vh;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .section {
+    padding: var(--spacing-lg) 0;
+  }
+}

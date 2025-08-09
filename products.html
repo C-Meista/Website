@@ -1,25 +1,279 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chainzz Shop</title>
-  <link rel="stylesheet" href="./css/global.css" />
-  <link rel="stylesheet" href="./css/products.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - CHAINZZ Premium Edelstahlketten</title>
+  <meta name="description" content="Entdecke die komplette CHAINZZ Kollektion. Premium Edelstahlketten in verschiedenen Styles - von minimalistisch bis bold.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/products.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
-<body class="bg-black text-white font-sans">
-  <header>
-    <div class="logo">CHAINZZ</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Shop</a></li>
-        <li><a href="custom.html">Custom</a></li>
-        <li><a href="about.html">Über Uns</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-      </ul>
-    </nav>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">CHAINZZ</div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="products.html" class="nav-link">Shop</a></li>
+          <li><a href="custom.html" class="nav-link">Custom</a></li>
+          <li><a href="about.html" class="nav-link">Über Uns</a></li>
+          <li><a href="contact.html" class="nav-link">Kontakt</a></li>
+        </ul>
+        <button class="menu-toggle" aria-expanded="false" aria-label="Navigation öffnen">
+          ☰
+        </button>
+      </nav>
+    </div>
   </header>
 
+  <!-- Page Header -->
+  <section class="section-sm" style="margin-top: 80px;">
+    <div class="container text-center">
+      <h1>Unsere Kollektion</h1>
+      <p>Premium Edelstahlketten für jeden Style und Anlass</p>
+    </div>
+  </section>
+
+  <!-- Products Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+        
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span>URBAN CLASSIC</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Urban Classic</h3>
+            <div class="product-price">€89.99</div>
+            <p class="product-description">Zeitlose Edelstahlkette mit minimalistischem Design. Perfekt für den täglichen Look.</p>
+            <div class="mt-md">
+              <p style="color: var(--text-muted); font-size: 0.85rem;">
+                • Länge: 50cm, 60cm verfügbar<br>
+                • Material: 316L Edelstahl<br>
+                • Wasserfest & nickelfrei
+              </p>
+            </div>
+            <a href="#" class="btn mt-md">In den Warenkorb</a>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span>BOLD STATEMENT</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Bold Statement</h3>
+            <div class="product-price">€129.99</div>
+            <p class="product-description">Markante Kette für selbstbewusste Träger. Robust und auffallend im besten Sinne.</p>
+            <div class="mt-md">
+              <p style="color: var(--text-muted); font-size: 0.85rem;">
+                • Länge: 55cm, 65cm verfügbar<br>
+                • Material: 316L Edelstahl<br>
+                • Breite: 8mm
+              </p>
+            </div>
+            <a href="#" class="btn mt-md">In den Warenkorb</a>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span>MINIMAL ELEGANCE</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Minimal Elegance</h3>
+            <div class="product-price">€69.99</div>
+            <p class="product-description">Dezente Eleganz für den modernen Minimalisten. Leicht und komfortabel zu tragen.</p>
+            <div class="mt-md">
+              <p style="color: var(--text-muted); font-size: 0.85rem;">
+                • Länge: 45cm, 55cm verfügbar<br>
+                • Material: 316L Edelstahl<br>
+                • Breite: 3mm
+              </p>
+            </div>
+            <a href="#" class="btn mt-md">In den Warenkorb</a>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span>INDUSTRIAL EDGE</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Industrial Edge</h3>
+            <div class="product-price">€149.99</div>
+            <p class="product-description">Industrieller Look mit robusten Gliedern. Für alle, die Stärke ausstrahlen wollen.</p>
+            <div class="mt-md">
+              <p style="color: var(--text-muted); font-size: 0.85rem;">
+                • Länge: 60cm, 70cm verfügbar<br>
+                • Material: 316L Edelstahl<br>
+                • Breite: 10mm
+              </p>
+            </div>
+            <a href="#" class="btn mt-md">In den Warenkorb</a>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span>VINTAGE STYLE</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Vintage Style</h3>
+            <div class="product-price">€99.99</div>
+            <p class="product-description">Klassisches Design mit vintage Finish. Zeitlos elegant mit charaktervollem Look.</p>
+            <div class="mt-md">
+              <p style="color: var(--text-muted); font-size: 0.85rem;">
+                • Länge: 50cm, 60cm verfügbar<br>
+                • Material: 316L Edelstahl<br>
+                • Antik-Finish
+              </p>
+            </div>
+            <a href="#" class="btn mt-md">In den Warenkorb</a>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-image">
+            <span>URBAN LINK</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Urban Link</h3>
+            <div class="product-price">€109.99</div>
+            <p class="product-description">Moderne Gliederstruktur mit urbanem Flair. Perfekte Balance zwischen Style und Komfort.</p>
+            <div class="mt-md">
+              <p style="color: var(--text-muted); font-size: 0.85rem;">
+                • Länge: 55cm, 65cm verfügbar<br>
+                • Material: 316L Edelstahl<br>
+                • Breite: 6mm
+              </p>
+            </div>
+            <a href="#" class="btn mt-md">In den Warenkorb</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Features Section -->
+  <section class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2>Warum unsere Ketten besonders sind</h2>
+        <p>Qualität, die man sieht und spürt</p>
+      </div>
+      
+      <div class="grid grid-3">
+        <div class="card text-center">
+          <h3>Premium Material</h3>
+          <p>Alle Ketten bestehen aus hochwertigem 316L Edelstahl - rostfrei, nickelfrei und langlebig.</p>
+        </div>
+        
+        <div class="card text-center">
+          <h3>Handverlesen</h3>
+          <p>Jede Kette wird sorgfältig ausgewählt und auf Qualität geprüft, bevor sie zu dir kommt.</p>
+        </div>
+        
+        <div class="card text-center">
+          <h3>Faire Preise</h3>
+          <p>Hochwertige Qualität ohne Luxus-Aufschlag. Ehrliche Preise für ehrliche Qualität.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Size Guide Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2>Größenberatung</h2>
+          <p>Die richtige Kettenlänge ist entscheidend für den perfekten Look. Hier findest du unsere Empfehlungen:</p>
+          
+          <div class="mt-md">
+            <h4>Kettenlängen Guide:</h4>
+            <ul style="color: var(--text-secondary);">
+              <li><strong>45cm:</strong> Sitzt eng am Hals, ideal für schmale Hälse</li>
+              <li><strong>50cm:</strong> Standard-Länge, vielseitig kombinierbar</li>
+              <li><strong>55cm:</strong> Locker am Hals, moderne Länge</li>
+              <li><strong>60cm:</strong> Bis zur Brust, statement-Look</li>
+              <li><strong>65-70cm:</strong> Lange Kette, markanter Style</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card">
+          <h3>Unsicher bei der Größe?</h3>
+          <p>Kein Problem! Miss einfach eine vorhandene Kette oder verwende ein Maßband um deinen Hals.</p>
+          
+          <div class="mt-md">
+            <h4>Kostenloser Umtausch:</h4>
+            <p>Sollte die Größe nicht passen, tauschst du sie kostenlos um. Innerhalb von 30 Tagen, ohne Wenn und Aber.</p>
+          </div>
+          
+          <a href="contact.html" class="btn mt-md">Beratung anfragen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>CHAINZZ</h3>
+          <p>Premium Edelstahlketten mit urbanem Flair. Zeitlos, hochwertig, nachhaltig.</p>
+          <p>Handverlesen und mit Leidenschaft gefertigt.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Produkte</h3>
+          <p><a href="products.html">Alle Ketten</a></p>
+          <p><a href="custom.html">Custom Design</a></p>
+          <p><a href="#">Zubehör</a></p>
+          <p><a href="#">Pflegehinweise</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Service</h3>
+          <p><a href="about.html">Über uns</a></p>
+          <p><a href="contact.html">Kontakt</a></p>
+          <p><a href="#">Versand & Rückgabe</a></p>
+          <p><a href="#">Größenberatung</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Rechtliches</h3>
+          <p><a href="#">AGB</a></p>
+          <p><a href="#">Datenschutz</a></p>
+          <p><a href="#">Impressum</a></p>
+          <p><a href="#">Widerrufsrecht</a></p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 CHAINZZ. Alle Rechte vorbehalten. | Entwickelt mit Leidenschaft für Detail.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

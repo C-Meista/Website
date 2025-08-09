@@ -1,25 +1,337 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chainzz Shop</title>
-  <link rel="stylesheet" href="./css/global.css" />
-  <link rel="stylesheet" href="./css/contact.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - CHAINZZ Premium Edelstahlketten</title>
+  <meta name="description" content="Kontaktiere CHAINZZ für Fragen zu unseren Premium Edelstahlketten, Custom Design Service oder allgemeine Beratung.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
-<body class="bg-black text-white font-sans">
-  <header>
-    <div class="logo">CHAINZZ</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Shop</a></li>
-        <li><a href="custom.html">Custom</a></li>
-        <li><a href="about.html">Über Uns</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-      </ul>
-    </nav>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">CHAINZZ</div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="products.html" class="nav-link">Shop</a></li>
+          <li><a href="custom.html" class="nav-link">Custom</a></li>
+          <li><a href="about.html" class="nav-link">Über Uns</a></li>
+          <li><a href="contact.html" class="nav-link">Kontakt</a></li>
+        </ul>
+        <button class="menu-toggle" aria-expanded="false" aria-label="Navigation öffnen">
+          ☰
+        </button>
+      </nav>
+    </div>
   </header>
 
+  <!-- Page Header -->
+  <section class="section-sm" style="margin-top: 80px;">
+    <div class="container text-center">
+      <h1>Kontakt</h1>
+      <p>Wir sind für dich da – persönlich und direkt</p>
+    </div>
+  </section>
+
+  <!-- Contact Methods Section -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card text-center">
+          <h3>E-Mail</h3>
+          <p>Für alle Anfragen und Fragen</p>
+          <p style="color: var(--text-primary); font-weight: 600;">
+            <a href="mailto:hello@chainzz.de">hello@chainzz.de</a>
+          </p>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            Antwortzeit: Meist innerhalb von 24 Stunden
+          </p>
+        </div>
+        
+        <div class="card text-center">
+          <h3>WhatsApp</h3>
+          <p>Für schnelle Fragen und Beratung</p>
+          <p style="color: var(--text-primary); font-weight: 600;">
+            <a href="https://wa.me/491234567890">+49 123 456 7890</a>
+          </p>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            Mo-Fr: 9:00-18:00 Uhr<br>
+            Sa: 10:00-16:00 Uhr
+          </p>
+        </div>
+        
+        <div class="card text-center">
+          <h3>Telefon</h3>
+          <p>Für ausführliche Beratung</p>
+          <p style="color: var(--text-primary); font-weight: 600;">
+            <a href="tel:+491234567890">+49 123 456 7890</a>
+          </p>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">
+            Mo-Fr: 10:00-17:00 Uhr<br>
+            Terminvereinbarung möglich
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2>Schreib uns eine Nachricht</h2>
+          <p>
+            Du hast Fragen zu unseren Produkten, benötigst eine Beratung oder möchtest 
+            eine Custom Design Anfrage stellen? Wir freuen uns auf deine Nachricht!
+          </p>
+          
+          <div class="mt-md">
+            <h4>Womit können wir dir helfen?</h4>
+            <ul style="color: var(--text-secondary);">
+              <li>Produktberatung und Größenempfehlungen</li>
+              <li>Custom Design Anfragen</li>
+              <li>Versand und Rückgabe Fragen</li>
+              <li>Qualität und Materialien</li>
+              <li>Pflegehinweise für deine Kette</li>
+              <li>Reparatur-Service</li>
+            </ul>
+          </div>
+          
+          <div class="mt-md">
+            <h4>Warum CHAINZZ Kundenservice besonders ist:</h4>
+            <p style="color: var(--text-secondary);">
+              Als kleine Manufaktur kennen wir jedes unserer Produkte persönlich. 
+              Michael, unser Gründer, beantwortet viele Anfragen selbst und bringt 
+              jahrelange Erfahrung im Schmuckdesign mit.
+            </p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <h3>Kontaktformular</h3>
+          <form>
+            <div class="form-group">
+              <label for="name" class="form-label">Name *</label>
+              <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">E-Mail *</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Betreff</label>
+              <select id="subject" name="subject" class="form-input">
+                <option value="">Bitte wählen...</option>
+                <option value="product">Produktfragen</option>
+                <option value="custom">Custom Design</option>
+                <option value="size">Größenberatung</option>
+                <option value="shipping">Versand & Rückgabe</option>
+                <option value="repair">Reparatur-Service</option>
+                <option value="care">Pflegehinweise</option>
+                <option value="other">Sonstiges</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Nachricht *</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                class="form-textarea" 
+                placeholder="Erzähle uns, womit wir dir helfen können..."
+                required
+              ></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); font-size: 0.9rem;">
+                <input type="checkbox" name="newsletter" style="margin: 0;">
+                Ja, ich möchte über neue Produkte und Aktionen informiert werden (optional)
+              </label>
+            </div>
+            
+            <button type="submit" class="btn" style="width: 100%;">
+              Nachricht senden
+            </button>
+            
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: var(--spacing-sm);">
+              Mit dem Absenden stimmst du unserer Datenschutzerklärung zu. 
+              Wir antworten in der Regel innerhalb von 24 Stunden.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2>Häufige Fragen</h2>
+        <p>Vielleicht findest du hier schon die Antwort auf deine Frage</p>
+      </div>
+      
+      <div class="grid grid-2">
+        <div>
+          <h4>Wie lange dauert der Versand?</h4>
+          <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
+            Innerhalb Deutschlands 1-3 Werktage, EU 3-7 Werktage. 
+            Express-Versand auf Anfrage möglich.
+          </p>
+          
+          <h4>Kann ich meine Bestellung zurückgeben?</h4>
+          <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
+            Ja, du hast 30 Tage Rückgaberecht. Custom Design Ketten sind 
+            von der Rückgabe ausgeschlossen, außer bei Mängeln.
+          </p>
+          
+          <h4>Sind eure Ketten nickelfrei?</h4>
+          <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
+            Absolut! Wir verwenden nur 316L Edelstahl, der komplett 
+            nickelfrei und hypoallergen ist.
+          </p>
+          
+          <h4>Bietet ihr Garantie auf eure Produkte?</h4>
+          <p style="color: var(--text-secondary);">
+            Ja, 2 Jahre Garantie auf Herstellungsfehler. Bei Custom Design 
+            Ketten sogar lebenslange Garantie auf die Handwerksqualität.
+          </p>
+        </div>
+        
+        <div>
+          <h4>Kann ich eine Kette gravieren lassen?</h4>
+          <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
+            Ja, wir bieten Laser-Gravur Service. Kontaktiere uns für 
+            Details und Preise.
+          </p>
+          
+          <h4>Welche Zahlungsmethoden akzeptiert ihr?</h4>
+          <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
+            PayPal, Kreditkarte, SEPA-Lastschrift, Kauf auf Rechnung 
+            (nach Bonitätsprüfung) und Vorabüberweisung.
+          </p>
+          
+          <h4>Habt ihr einen physischen Store?</h4>
+          <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">
+            Aktuell sind wir rein online, aber wir bieten persönliche 
+            Beratungstermine nach Vereinbarung an.
+          </p>
+          
+          <h4>Wie pflege ich meine CHAINZZ Kette richtig?</h4>
+          <p style="color: var(--text-secondary);">
+            Edelstahl ist sehr pflegeleicht. Warmes Wasser und ein weiches 
+            Tuch reichen meist. Detaillierte Pflegehinweise liegen jeder Kette bei.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Info Section -->
+  <section class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Geschäftsinformationen</h3>
+          <p><strong>CHAINZZ</strong><br>
+          Michael Senn<br>
+          Musterstraße 123<br>
+          12345 Musterstadt<br>
+          Deutschland</p>
+          
+          <p style="margin-top: var(--spacing-md);">
+            <strong>USt-IdNr.:</strong> DE123456789<br>
+            <strong>Steuernummer:</strong> 123/456/78901
+          </p>
+          
+          <p style="margin-top: var(--spacing-md); color: var(--text-secondary);">
+            Eingetragen im Handelsregister des Amtsgerichts Musterstadt<br>
+            HRB 123456
+          </p>
+        </div>
+        
+        <div>
+          <h2>Persönlicher Service</h2>
+          <p>
+            Bei CHAINZZ bekommst du nicht nur eine Kette, sondern eine 
+            persönliche Betreuung von Anfang bis Ende.
+          </p>
+          
+          <div class="mt-md">
+            <h4>Das zeichnet uns aus:</h4>
+            <ul style="color: var(--text-secondary);">
+              <li>Direkter Kontakt zum Gründer und Designer</li>
+              <li>Ehrliche Beratung ohne Verkaufsdruck</li>
+              <li>Schnelle Antwortzeiten</li>
+              <li>Lösungsorientierter Kundenservice</li>
+              <li>Nachbetreuung auch nach dem Kauf</li>
+            </ul>
+          </div>
+          
+          <p style="margin-top: var(--spacing-md); color: var(--text-secondary);">
+            "Mir ist wichtig, dass jeder Kunde zufrieden ist. Deshalb nehme ich mir 
+            die Zeit für persönliche Beratung und stehe auch nach dem Kauf für Fragen zur Verfügung."
+          </p>
+          <p style="color: var(--text-muted); font-style: italic;">— Michael Senn, Gründer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>CHAINZZ</h3>
+          <p>Premium Edelstahlketten mit urbanem Flair. Zeitlos, hochwertig, nachhaltig.</p>
+          <p>Handverlesen und mit Leidenschaft gefertigt.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Produkte</h3>
+          <p><a href="products.html">Alle Ketten</a></p>
+          <p><a href="custom.html">Custom Design</a></p>
+          <p><a href="#">Zubehör</a></p>
+          <p><a href="#">Pflegehinweise</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Service</h3>
+          <p><a href="about.html">Über uns</a></p>
+          <p><a href="contact.html">Kontakt</a></p>
+          <p><a href="#">Versand & Rückgabe</a></p>
+          <p><a href="#">Größenberatung</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Rechtliches</h3>
+          <p><a href="#">AGB</a></p>
+          <p><a href="#">Datenschutz</a></p>
+          <p><a href="#">Impressum</a></p>
+          <p><a href="#">Widerrufsrecht</a></p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 CHAINZZ. Alle Rechte vorbehalten. | Entwickelt mit Leidenschaft für Detail.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

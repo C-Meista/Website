@@ -1,0 +1,18 @@
+/* ===== CHAINZZ - Main Stylesheet ===== */
+/* This file imports all modular CSS files for better organization */
+
+/* Base styles: variables, reset, typography, utilities */
+@import url('./base.css');
+
+/* Shared components: header, footer, buttons, cards, forms */
+@import url('./components.css');
+
+/* Page-specific styles */
+@import url('./home.css');
+@import url('./products.css');
+@import url('./custom.css');
+@import url('./about.css');
+@import url('./contact.css');
+
+/* Responsive design for all pages */
+@import url('./responsive.css');

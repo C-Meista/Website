@@ -1,0 +1,27 @@
+/* ===== CHAINZZ - About Page Styles ===== */
+/* Styles specific to about.html */
+
+/* About page specific styles can be added here */
+/* Currently using global components, but can be extended for specific needs */
+
+/* Example: Special styling for founder section */
+.founder-quote {
+  font-style: italic;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--border-color);
+  padding-left: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.process-step {
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-sm);
+  border-left: 2px solid var(--border-color);
+  transition: var(--transition-fast);
+}
+
+.process-step:hover {
+  border-left-color: var(--text-primary);
+  background-color: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+}

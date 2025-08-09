@@ -1,32 +1,194 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chainzz – Custom Schmuck</title>
-  <link rel="stylesheet" href="./css/global.css" />
-  <link rel="stylesheet" href="./css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHAINZZ – Premium Edelstahlketten mit urbanem Flair</title>
+  <meta name="description" content="Entdecke CHAINZZ - Premium Edelstahlketten mit urbanem Design. Custom-Made Schmuck für deinen individuellen Style. Hochwertig, nachhaltig, zeitlos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
 
-  <header>
-    <div class="logo">CHAINZZ</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Shop</a></li>
-        <li><a href="custom.html">Custom</a></li>
-        <li><a href="about.html">Über Uns</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-      </ul>
-    </nav>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">CHAINZZ</div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="products.html" class="nav-link">Shop</a></li>
+          <li><a href="custom.html" class="nav-link">Custom</a></li>
+          <li><a href="about.html" class="nav-link">Über Uns</a></li>
+          <li><a href="contact.html" class="nav-link">Kontakt</a></li>
+        </ul>
+        <button class="menu-toggle" aria-expanded="false" aria-label="Navigation öffnen">
+          ☰
+        </button>
+      </nav>
+    </div>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <h1>Deine Kette. Dein Style.</h1>
-    <p>Custom Edelstahlketten mit urbanem Flair – nur bei CHAINZZ</p>
-    <a href="products.html" class="btn">Jetzt shoppen</a>
+    <div class="hero-content">
+      <h1>Deine Kette. Dein Style.</h1>
+      <p>Premium Edelstahlketten mit urbanem Flair – handverlesen für deinen individuellen Look. Zeitlos, hochwertig, nachhaltig.</p>
+      <div>
+        <a href="products.html" class="btn">Kollektion entdecken</a>
+        <a href="custom.html" class="btn btn-outline">Custom Design</a>
+      </div>
+    </div>
   </section>
 
+  <!-- Featured Products Section -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2>Beliebte Ketten</h2>
+        <p>Unsere meistverkauften Designs für jeden Anlass</p>
+      </div>
+      
+      <div class="grid grid-3">
+        <div class="product-card">
+          <div class="product-image">
+            <!-- Placeholder für Produktbild -->
+            <span>CLASSIC CHAIN</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Urban Classic</h3>
+            <div class="product-price">€89.99</div>
+            <p class="product-description">Zeitlose Edelstahlkette mit minimalistischem Design. Perfekt für den täglichen Look.</p>
+            <a href="products.html" class="btn">Details ansehen</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span>BOLD CHAIN</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Bold Statement</h3>
+            <div class="product-price">€129.99</div>
+            <p class="product-description">Markante Kette für selbstbewusste Träger. Robust und auffallend im besten Sinne.</p>
+            <a href="products.html" class="btn">Details ansehen</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <span>MINIMAL CHAIN</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Minimal Elegance</h3>
+            <div class="product-price">€69.99</div>
+            <p class="product-description">Dezente Eleganz für den modernen Minimalisten. Leicht und komfortabel zu tragen.</p>
+            <a href="products.html" class="btn">Details ansehen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="grid grid-2">
+        <div>
+          <h2>Warum CHAINZZ?</h2>
+          <p>Bei CHAINZZ glauben wir, dass Schmuck mehr als nur ein Accessoire ist – er ist Ausdruck deiner Persönlichkeit. Jede unserer Ketten wird mit Leidenschaft für Detail und einem Fokus auf Qualität gefertigt.</p>
+          
+          <div class="mt-md">
+            <h3>Unsere Werte</h3>
+            <ul style="list-style: none; padding: 0;">
+              <li style="margin-bottom: 0.5rem;">✓ Premium Edelstahl für langlebige Qualität</li>
+              <li style="margin-bottom: 0.5rem;">✓ Nachhaltiger Herstellungsprozess</li>
+              <li style="margin-bottom: 0.5rem;">✓ Zeitloses Design mit urbanem Flair</li>
+              <li style="margin-bottom: 0.5rem;">✓ Faire Preise ohne versteckte Aufschläge</li>
+            </ul>
+          </div>
+          
+          <a href="about.html" class="btn btn-outline mt-md">Mehr über uns</a>
+        </div>
+        
+        <div class="card">
+          <h3>Custom Design Service</h3>
+          <p>Du hast eine Vision für deine perfekte Kette? Unser Custom Design Service macht es möglich. Von der ersten Idee bis zum fertigen Schmuckstück begleiten wir dich durch den gesamten Prozess.</p>
+          
+          <div class="mt-md">
+            <h4>So funktioniert's:</h4>
+            <ol style="padding-left: 1.2rem; color: var(--text-secondary);">
+              <li>Beratungsgespräch über deine Wünsche</li>
+              <li>Design-Skizzen und Material-Auswahl</li>
+              <li>Handwerkliche Fertigung deines Unikats</li>
+              <li>Qualitätskontrolle und Versand</li>
+            </ol>
+          </div>
+          
+          <a href="custom.html" class="btn mt-md">Custom Design anfragen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section">
+    <div class="container text-center">
+      <h2>Bereit für deine neue Lieblingskette?</h2>
+      <p>Entdecke unsere komplette Kollektion und finde das perfekte Schmuckstück für deinen Style.</p>
+      <div class="mt-lg">
+        <a href="products.html" class="btn">Jetzt shoppen</a>
+        <a href="contact.html" class="btn btn-outline">Fragen? Kontaktiere uns</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>CHAINZZ</h3>
+          <p>Premium Edelstahlketten mit urbanem Flair. Zeitlos, hochwertig, nachhaltig.</p>
+          <p>Handverlesen und mit Leidenschaft gefertigt.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Produkte</h3>
+          <p><a href="products.html">Alle Ketten</a></p>
+          <p><a href="custom.html">Custom Design</a></p>
+          <p><a href="#">Zubehör</a></p>
+          <p><a href="#">Pflegehinweise</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Service</h3>
+          <p><a href="about.html">Über uns</a></p>
+          <p><a href="contact.html">Kontakt</a></p>
+          <p><a href="#">Versand & Rückgabe</a></p>
+          <p><a href="#">Größenberatung</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Rechtliches</h3>
+          <p><a href="#">AGB</a></p>
+          <p><a href="#">Datenschutz</a></p>
+          <p><a href="#">Impressum</a></p>
+          <p><a href="#">Widerrufsrecht</a></p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 CHAINZZ. Alle Rechte vorbehalten. | Entwickelt mit Leidenschaft für Detail.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

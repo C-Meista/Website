@@ -1,0 +1,32 @@
+/* ===== CHAINZZ - Custom Design Page Styles ===== */
+/* Styles specific to custom.html */
+
+/* Custom design specific styles can be added here */
+/* Currently using global components, but can be extended for specific needs */
+
+/* Example: Special styling for custom design cards */
+.custom-process-card {
+  text-align: center;
+  position: relative;
+}
+
+.custom-process-card::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -1rem;
+  width: 2rem;
+  height: 2px;
+  background: var(--border-color);
+  display: none;
+}
+
+.custom-process-card:not(:last-child)::after {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .custom-process-card::after {
+    display: none;
+  }
+}
